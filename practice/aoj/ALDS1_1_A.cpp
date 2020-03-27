@@ -8,6 +8,7 @@ void printCards(){
 }
 
 void insertSort(){
+  printCards();
   for(int i=1;i<n;i++){
     int key = a[i];
     int j=i-1;
